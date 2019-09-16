@@ -33,5 +33,11 @@
 	  test-runner-xfail-count test-runner-skip-count test-runner-test-name
 	  test-runner-group-path test-runner-group-stack test-runner-aux-value
 	  test-runner-aux-value! test-runner-reset)
-  (import (scheme base))
-  (include-ci "testing.scm"))
+  (import (scheme base)
+	  (scheme char)
+	  (scheme complex)
+	  (scheme eval)
+	  (scheme file)
+	  (scheme read)
+	  (scheme write))
+  (include "testing.scm"))

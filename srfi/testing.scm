@@ -333,7 +333,7 @@
                     (lambda (ch)
                       (if (or (char-alphabetic? ch)
                               (char-numeric? ch)
-                              (char=? ch #\Space)
+                              (char=? ch #\space)
                               (char=? ch #\-)
                               (char=? ch #\+)
                               (char=? ch #\_)
