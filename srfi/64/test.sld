@@ -1,3 +1,6 @@
+;;> \title{SRFI-64 test suite}
+;;>
+;;> This is the SRFI-64 test suite written by Donovan Kolby.
 (define-library (srfi 64 test)
   (export run-tests)
   (import (scheme base)
