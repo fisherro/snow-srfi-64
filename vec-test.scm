@@ -3,6 +3,8 @@
 	(srfi 64))
 
 (display "Start\n")
+(set! test-log-to-file #f)
+
 ;; Initialize and give a name to a simple testsuite.
 (test-begin "vec-test")
 (define v (make-vector 5 99))
@@ -14,5 +16,6 @@
 (test-eqv 7 (vector-ref v 2))
 ;; Finish the testsuite, and report results.
 (test-end "vec-test")
+
 (display "End\n")
 

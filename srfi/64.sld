@@ -32,7 +32,9 @@
 	  test-runner-pass-count test-runner-fail-count test-runner-xpass-count
 	  test-runner-xfail-count test-runner-skip-count test-runner-test-name
 	  test-runner-group-path test-runner-group-stack test-runner-aux-value
-	  test-runner-aux-value! test-runner-reset)
+	  test-runner-aux-value! test-runner-reset
+	  ; test-log-to-file is not a part of the spec
+	  test-log-to-file)
   (import (scheme base)
 	  (scheme char)
 	  (scheme complex)
