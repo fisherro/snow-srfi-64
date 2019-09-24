@@ -9,6 +9,9 @@
 ;;>
 ;;> This snowball was made by Robert Fisher.
 ;;>
+;;> Note that the test suite is currently not passing (at least with
+;;> chibi-scheme). See the github repo below for more information.
+;;>
 ;;> \hyperlink[https://github.com/fisherro/snow-srfi-64]{github repo}
 (define-library (srfi 64)
   (export test-assert test-eqv test-equal test-eq test-approximate test-error
