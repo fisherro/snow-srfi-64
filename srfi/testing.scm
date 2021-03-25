@@ -25,8 +25,6 @@
 ;; SOFTWARE.
 
 (cond-expand
- (chicken
-  (require-extension syntax-case))
  (guile-2
   (use-modules (srfi srfi-9)
                ;; In 2.0.9, srfi-34 and srfi-35 are not well integrated
